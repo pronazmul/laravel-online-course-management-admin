@@ -162,9 +162,8 @@ $('button#uploadPhotoBtn').click(function(){
 							if(response.status==200){
 								
 								retrivePhoto();
-								$("input[name='image-status']:checked").val('');
+								$('#image').val('');
 								toastr.success('Success! Image Uploaded');
-								
 								 $('#uploadImageModal').modal('hide');
 							}
 

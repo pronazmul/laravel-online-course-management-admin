@@ -24,6 +24,7 @@
                         </li>
                         <li> <a href="{{url('/visitor')}}" ><span> <i class="fas fa-users"></i> </span><span class="hide-menu">Visitors</span></a></li>
                     	<li> <a href="{{url('/user')}}" ><span> <i class="fas fa-user-graduate"></i> </span><span class="hide-menu">User</span></a></li>
+                    	<li> <a href="{{url('/upload')}}" ><span> <i class="fas fa-upload"></i> </span><span class="hide-menu">Upload Photo</span></a></li>
                         <li> <a href="{{url('/message')}}" ><span> <i class="fas fa-address-book"></i> </span><span class="hide-menu">Message</span></a></li>
 
 					</ul>

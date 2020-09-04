@@ -20,3 +20,9 @@ Route::post('/deleteContractData','contractController@deleteContractData')->midd
 Route::get('/login', 'loginController');
 Route::post('/adminLogin', 'loginController@adminLogin');
 Route::get('/logOut', 'loginController@logOut');
+
+//Upload image Route Setup.........
+Route::get('/upload', 'uploadController');
+Route::get('/retrivePhoto', 'uploadController@retrivePhoto');
+Route::post('/uploadPhoto', 'uploadController@uploadPhoto');
+Route::post('/deletePhoto', 'uploadController@deletePhoto');
